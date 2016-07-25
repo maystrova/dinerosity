@@ -1,0 +1,131 @@
+body {
+	font-family: arial;
+	background: white;
+	padding: 0;
+	margin: 0;
+	background: white;
+}
+img {
+	max-width: 100%;
+}
+
+.upside{
+width: 100%;
+    background-image: url('../images/background.jpeg');
+background-size: 100%
+}
+.upside .content{
+
+}
+.upside .content .header {
+	display: flex;
+	padding-left: 9%;
+}
+.header .logo{
+    width: 160px;
+    max-height: 100px;
+    float: left;
+}
+.header .logo h4{
+	    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+.header .logo h6{
+	    font-size: 11px;
+    color: white;
+}
+.header .menu{
+line-height: 100px;
+}
+.header .menu ul{
+	list-style: none;
+    float: right;
+    padding: 0;
+    margin: 20px;
+}
+.header .menu ul li{
+	padding-right: 100px;
+
+}
+.header .menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 7px 10px;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.header .signin{
+line-height: 100px;
+}
+.header .signin ul{
+		list-style: none;
+    float: right;
+    padding: 0;
+    margin: 20px;
+}
+.header .signin ul li{
+	
+}
+.header .signin ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 7px 10px;
+    line-height: 30px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.header .social{
+    line-height: 8;
+}
+.header .social ul{
+	
+}
+.header .social ul li{
+	
+}
+.header .social ul li a{
+	
+}
+.header .social ul li a img{
+	max-height: 40px;
+}
+.upside .text{
+padding: 50px 100px 100px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    max-width: 80%;
+}
+.upside .text h2{
+    font-size: 30px;
+}
+.upside .text h3{
+    font-size: 35px;
+}
+.upside .text h4{
+    font-size: 19px;
+}
+.upside .text p{
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: center;
+    max-width: 50%;
+    padding-left: 25%;
+        padding-bottom: 30px;
+}
+.upside .text a{
+    color: white;
+    border: 1px solid #2a9e2a;
+    border-radius: 20%;
+    text-decoration: none;
+    padding: 16px 20px;
+    display: inline-block;
+    font-size: 15px;
+    background: #2a9e2a;
+}
