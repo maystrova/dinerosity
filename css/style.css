@@ -36,7 +36,8 @@ img {
   font-size: 25px;
   color: white;
   text-transform: uppercase;
-  margin: 0 0 10px 0;
+  margin: 0;
+  letter-spacing: 4px;
 }
 .header .logo h6 {
   font-size: 11px;
@@ -45,6 +46,7 @@ img {
   font-style: italic;
   font-weight: 100;
   opacity: 0.8;
+  text-align: center;
 }
 .header .menu {
   float: left;
@@ -119,19 +121,17 @@ img {
   font-size: 12px;
   line-height: 1.5;
   text-align: center;
-  max-width: 50%;
-  padding-left: 25%;
-  padding-bottom: 30px;
+  padding: 0 200px 50px;
 }
 .promo .text a {
   color: white;
-  border: 1px solid #2a9e2a;
+  border: 1px solid #0bb10b;
   border-radius: 20%;
   text-decoration: none;
   padding: 16px 20px;
   display: inline-block;
   font-size: 15px;
-  background: #2a9e2a;
+  background: #0bb10b;
 }
 .helpyou h2 {
   text-align: center;
@@ -193,7 +193,7 @@ img {
   color: white;
 }
 .charity .statistic .show h4 {
-  margin-top: -35px;
+  margin-top: -50px;
   text-transform: uppercase;
   color: white;
   font-size: 20px;
@@ -204,11 +204,36 @@ img {
 .charity .link a {
   color: white;
   border: 2px solid white;
-  border-radius: 35%;
+  border-radius: 50%;
   text-decoration: none;
   padding: 30px 42px;
   display: inline-block;
   font-size: 27px;
   background: transparent;
   text-transform: uppercase;
+}
+.steps .container h2 {
+  text-align: center;
+  padding-bottom: 50px;
+  font-size: 40px;
+  color: #615b5b;
+}
+.steps .container .step {
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 0 10px;
+}
+.steps .container .step img {
+  width: 50%;
+  border-radius: 50%;
+}
+.steps .container .step h4 {
+  font-size: 20px;
+  color: #e29c1b;
+}
+.steps .container .step p {
+  font-size: 17px;
+  word-spacing: 2px;
+  color: #696464;
 }
