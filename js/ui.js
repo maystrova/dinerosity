@@ -1,25 +1,37 @@
 $(document).ready(function() {
     $(".dot1").click(function() {
         $(".slideshow ul li").removeClass("active");
-        $(".image1").addClass("active");
+        $(".slide1").addClass("active");
         $(".dots i").removeClass("active");
         $(this).addClass("active");
     });
     $(".dot2").click(function() {
         $(".slideshow ul li").removeClass("active");
-        $(".image2").addClass("active");
+        $(".slide2").addClass("active");
         $(".dots i").removeClass("active");
         $(this).addClass("active");
     });
     $(".dot3").click(function() {
         $(".slideshow ul li").removeClass("active");
-        $(".image3").addClass("active");
+        $(".slide3").addClass("active");
         $(".dots i").removeClass("active");
         $(this).addClass("active");
     });
     $(".dot4").click(function() {
         $(".slideshow ul li").removeClass("active");
-        $(".image4").addClass("active");
+        $(".slide4").addClass("active");
+        $(".dots i").removeClass("active");
+        $(this).addClass("active");
+    });
+        $(".dot5").click(function() {
+        $(".slideshow ul li").removeClass("active");
+        $(".slide5").addClass("active");
+        $(".dots i").removeClass("active");
+        $(this).addClass("active");
+    });
+            $(".dot6").click(function() {
+        $(".slideshow ul li").removeClass("active");
+        $(".slide6").addClass("active");
         $(".dots i").removeClass("active");
         $(this).addClass("active");
     });
