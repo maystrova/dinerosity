@@ -225,7 +225,7 @@ img {
   background: rgba(255, 255, 255, 0.3);
 }
 .steps {
-  margin-bottom: 300px;
+  margin-bottom: 400px;
 }
 .steps .container h2 {
   text-align: center;
@@ -288,6 +288,7 @@ img {
 }
 .slideshow ul li {
   text-align: center;
+  display: none;
 }
 .slideshow ul li.active {
   display: block !important;
@@ -325,20 +326,19 @@ img {
   background-size: cover;
 }
 .mission .text {
-  text-align: right;
+  width: 50%;
+  float: right;
 }
 .mission .text h4 {
   color: white;
   font-size: 35px;
   text-transform: capitalize;
-  padding-right: 25%;
 }
 .mission .text p {
   color: white;
   line-height: 1.5;
-  padding-left: 55%;
   word-spacing: 4px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .mission .text a {
   color: white;
